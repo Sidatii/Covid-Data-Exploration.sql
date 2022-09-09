@@ -115,3 +115,5 @@ or iso_code like 'DZA'
 or total_vaccinations <> null
 group by location
 order by highestDeathsCount desc;
+
+--That was it. Thank you.
