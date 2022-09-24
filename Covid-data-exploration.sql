@@ -18,6 +18,7 @@ where iso_code like 'MAR'
 or iso_code like 'DZA'
 and total_cases is not null
 
+
 --Lets Start our analysis
 --We are going to get the total cases registered for each country during the whole period
 
@@ -116,4 +117,5 @@ or total_vaccinations <> null
 group by location
 order by highestDeathsCount desc;
 
---That was it. Thank you.
+--That was it. Thank you. 
+--This was a simple showcase of data querying in SQL
